@@ -1,58 +1,53 @@
-# Hi, I'm Sai Pramod Reddy Gopireddy 👋
+# Hi, I'm Sai Pramod Reddy Gopireddy
 
-**Senior Software Engineer @ Apple** | Austin, TX  
-Distributed Systems · Kafka · Spring Boot · AWS · ML Engineering
-
----
-
-## 🚀 What I Build
-
-I specialize in the intersection of **backend engineering and ML deployment** — building
-production-grade distributed systems that are reliable, scalable, and AI-ready.
-
-- **5+ years at Apple** building enterprise microservices on Spring Boot, Kafka, and AWS
-- Currently expanding into **ML Engineering** — training Python models and deploying
-  them through Java production backends
-- Passionate about systems that don't fail under pressure
+**Senior Backend Engineer @ Apple** | Austin, TX  
+Distributed Systems · Kafka · Spring Boot · AWS · GenAI
 
 ---
 
-## 🛠️ Tech Stack
+## What I Build
+
+Backend engineer with **7+ years** designing and scaling distributed systems across enterprise environments. I specialize in the intersection of **production backend engineering and AI** — building reliable, high-throughput systems that are cloud-native and AI-ready.
+
+- At **Apple** since 2020 — microservices, Kafka pipelines, reactive APIs, AWS infrastructure
+- Currently building **GenAI-powered backends** — RAG systems, LLM APIs, vector search
+- Strong focus on systems that don't fail under pressure: 99.9%+ availability, P0/P1 ownership, MTTR reduction
+
+---
+
+## Tech Stack
 
 | Layer | Technologies |
 |---|---|
-| **Languages** | Java 21, Python, SQL |
-| **Backend** | Spring Boot 3, Spring MVC, Hibernate, Project Reactor (Mono/Flux) |
-| **ML / AI** | Scikit-learn, FastAPI, Pandas, NumPy, TensorFlow |
-| **Messaging** | Apache Kafka, Event-Driven Architecture |
-| **Cloud** | AWS (S3, KMS, IAM), Docker, Jenkins, GitHub Actions |
-| **Databases** | MongoDB, PostgreSQL, Oracle, MySQL |
-| **Observability** | Splunk, Zipkin, SonarQube |
+| **Languages** | Java 21, Python, TypeScript, SQL, Groovy |
+| **Backend** | Spring Boot 3, Project Reactor (Mono/Flux), FastAPI, Hibernate |
+| **AI & GenAI** | LangChain, ChromaDB, LLM Integration, RAG, Prompt Engineering |
+| **Messaging** | Apache Kafka, Event-Driven Architecture, Async I/O |
+| **Cloud & DevOps** | AWS (S3, KMS, IAM, Lambda, EC2), Docker, Kubernetes, Terraform |
+| **Databases** | MongoDB, PostgreSQL, Oracle SQL, MySQL |
+| **Observability** | Splunk, Zipkin, CloudWatch, SonarQube |
+| **CI/CD** | Jenkins, GitHub Actions, BuildKite |
 
 ---
 
-## 📌 Featured Projects
+## Active Projects
 
-| Project | Stack | What It Does |
+| Project | Stack | Status |
 |---|---|---|
-| 🔵 [churn-prediction-api](#) | Python · Scikit-learn · FastAPI · Spring Boot | ML model → production Java gateway |
-| 🟠 [realtime-anomaly-detector](#) | Kafka · Isolation Forest · Spring Boot | Live ML scoring on event streams |
-| 🟢 [ml-model-monitor](#) | Python · Spring Boot · PostgreSQL | MLOps drift detection dashboard |
-| ⚙️ [backend-to-ml-journey](https://github.com/SaiPramod-CodeHUB/backend-to-ml-journey) | Python · ML · Java | My documented Backend → ML transition |
+| [rag-document-qa-api](https://github.com/SaiPramod-CodeHUB/rag-document-qa-api) | FastAPI · LangChain · ChromaDB · Docker | In progress |
+| [ci-observability-dashboard](https://github.com/SaiPramod-CodeHUB/ci-observability-dashboard) | Java 21 · Spring Boot · Kafka · GraphQL · PostgreSQL | In progress |
 
 ---
 
-## 📈 Currently Learning
+## Currently Building
 
-- 🐍 Python for ML Engineering
-- 📊 Kaggle ML competitions  
-- ☁️ AWS Machine Learning Specialty (prep)
-- 🤖 LLM apps & RAG architecture
+- RAG-based document Q&A API — production FastAPI backend with vector search
+- CI observability platform — Kafka + GraphQL metrics dashboard in Java 21
+- Deepening GenAI backend architecture: streaming LLM responses, embedding pipelines, retrieval optimization
 
 ---
 
-## 📫 Connect With Me
+## Connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-saipramodreddygopireddy-blue?logo=linkedin)](https://linkedin.com/in/saipramodreddygopireddy)
 [![Email](https://img.shields.io/badge/Email-saipramod0310@gmail.com-red?logo=gmail)](mailto:saipramod0310@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-SaiPramod--CodeHUB-black?logo=github)](https://github.com/SaiPramod-CodeHUB)
