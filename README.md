@@ -58,8 +58,8 @@ Portfolio projects built on synthetic data — not production systems.
 | Week 5 | Production RAG Q&A API | ✅ |
 | Week 6 | AI incident triage bot — Splunk webhook integration | ✅ |
 | Week 7 | Spring AI — GenAI in the Java/Spring ecosystem | ✅ |
-| Week 8 | LangGraph, agents, guardrails | ⏳ |
-| Week 9 | Claude Certified Architect exam prep | ⏳ |
+| Week 8 | LangGraph, agents, guardrails | ✅ |
+| Week 9 | Claude Certified Architect exam prep | ✅ |
 
 **➡️ [View full learning journey](https://github.com/SaiPramod-CodeHUB/genai-learning)**
 
