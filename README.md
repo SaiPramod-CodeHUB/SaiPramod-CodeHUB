@@ -35,7 +35,23 @@ Backend engineer with **9 years** designing and scaling distributed systems acro
 
 ---
 
-## Projects
+## Featured — [ies-eligibility-platform](https://github.com/SaiPramod-CodeHUB/ies-eligibility-platform)
+
+A **multi-jurisdiction benefits eligibility engine** in Java 21 and Spring Boot 3. The interesting part isn't the rules — it's that **nothing in the code names a state**. Three abstractions carry all the variation:
+
+- `Jurisdiction` — the programs an agency offers, what it calls them locally, and the time zone its as-of dates resolve in
+- `ThresholdProvider` — effective-dated numbers, a federal baseline with per-jurisdiction overrides
+- `ProgramRuleSet` — rules resolved most-specific-wins
+
+Onboarding a new jurisdiction is a YAML block. Code is needed only when its *rules* differ, not its numbers. Asking for a program a jurisdiction doesn't administer returns **409** rather than quietly falling back to federal rules — producing a determination for a benefit the agency cannot issue is the dangerous behaviour.
+
+Every determination returns the rules that fired, each with a reason and a policy reference, so a caseworker can explain any outcome. The AI layer is interface-based with offline defaults, and ungrounded generated notices are rejected by a code path, not a prompt.
+
+**77 tests. `mvn clean verify` needs no database, no broker and no API key.** Portfolio project on synthetic data.
+
+---
+
+## Other Projects
 
 Portfolio projects built on synthetic data — not production systems.
 
@@ -58,8 +74,8 @@ Portfolio projects built on synthetic data — not production systems.
 | Week 5 | Production RAG Q&A API | ✅ |
 | Week 6 | AI incident triage bot — Splunk webhook integration | ✅ |
 | Week 7 | Spring AI — GenAI in the Java/Spring ecosystem | ✅ |
-| Week 8 | LangGraph, agents, guardrails | ✅ |
-| Week 9 | Claude Certified Architect exam prep | ✅ |
+| Week 8 | LangGraph, agents, guardrails | ⏳ |
+| Week 9 | Claude Certified Architect exam prep | ⏳ |
 
 **➡️ [View full learning journey](https://github.com/SaiPramod-CodeHUB/genai-learning)**
 
